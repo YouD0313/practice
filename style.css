@@ -77,7 +77,7 @@ span .anchor {
     padding: 10px;
     margin: 0 auto;
 }
-.p-rewards, .p-menu, .p-order {
+.p-coffee, .p-rewards, .p-menu, .p-order {
     padding-top: 100px;
     padding-bottom: 100px;
 }
@@ -93,8 +93,18 @@ a h1 {
 .p-coffee img {
     width: 500px;
 }
+.top-rewards {
+    background: linear-gradient(to left bottom, white 50%, lightgreen 50%);
+    height: 70px;
+
+}
 .p-rewards {
-    background: linear-gradient(lightgreen, rgb(21, 180, 185));
+    background: linear-gradient(lightgreen, rgb(21, 180, 185));    
+    
+}
+.bottom-rewards {
+    background: linear-gradient(to right bottom, rgb(21, 180, 185) 50%, white 50%);
+    height: 70px;
 }
 .p-rewards h1 {
     padding-bottom: 60px;
@@ -137,6 +147,10 @@ a h1 {
 	flex-wrap: nowrap;
 	justify-content: space-evenly;
 	align-items: center;
+}
+.top-order {
+    background: linear-gradient(to left bottom, white 50%, lightpink 50%);
+    height: 70px;
 }
 .p-order {
     background: linear-gradient(lightpink, rgb(182, 99, 182));    
