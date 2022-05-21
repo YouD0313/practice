@@ -35,6 +35,9 @@ span .anchor {
     line-height: 50px;
     padding-right: 20px;
 }
+.header-menu section a:hover {
+    color: rgb(96, 209, 209);
+}
 .main-page {
     position: absolute;
     top: 50px;
@@ -158,7 +161,7 @@ a h1 {
 .p-order h1 {
     color: #fff;
 }
-.p-order span {
+.p-order form span {
     color: #fff;
 }
 form {
